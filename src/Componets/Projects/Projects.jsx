@@ -6,29 +6,34 @@ import freshBurger from '../../assets/fresh-burger.png'
 import hipssper from '../../assets/hipsster.png'
 import fitLift from '../../assets/fitlift.png'
 
+import cabañas from '../../assets/CabañasWeb.png';
+import ticosta from '../../assets/TicostaWeb.png';
+import lumina from '../../assets/LuminaApp.png';
+import alegria from '../../assets/AlegriaWeb.png';
+
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
     return (
         <section id='projects' className={styles.container}>
-            <h1 className='sectionTitle'>Projects</h1>
+            <h1 className='sectionTitle'>Proyectos</h1>
             <div className={styles.projectsContainer}>
 
-                <ProjectCard src={Viberr} link="https://github.com/JoseTruko/Jose-Ramirez-Portfolio"
-                h3="Viberr"
-                p="Sreaming App"/>
+                <ProjectCard src={cabañas} link="https://xn--cabaasdonramiro-1qb.com/"
+                h3="Cabañas Don Ramiro"
+                p="Web para hotel / wordpress"/>
 
-                <ProjectCard src={freshBurger} link="https://github.com/JoseTruko/Jose-Ramirez-Portfolio"
-                h3="Fresh Burger"
-                p="Hamburger Restaurand"/>
+                <ProjectCard src={ticosta} link="https://ticostatravels.com/"
+                h3="Ticosta Travels"
+                p="Web para turismo / wordpress"/>
 
-                <ProjectCard src={hipssper} link="https://github.com/JoseTruko/Jose-Ramirez-Portfolio"
-                h3="Hissper"
-                p="Glasses Shop"/>
+                <ProjectCard src={lumina} link="https://github.com/JoseTruko/LuminaResort.git"
+                h3="Lumina Resort"
+                p="App hotelera / Laravel"/>
 
-                <ProjectCard src={fitLift} link="https://github.com/JoseTruko/Jose-Ramirez-Portfolio"
-                h3="FitLift"
-                p="Fitness App"/>
+                <ProjectCard src={alegria} link="https://github.com/JoseTruko/RecipeDepot.git"
+                h3="Alegría al cocinar"
+                p="Web de recetas / Vue.js"/>
 
             </div>
         </section>

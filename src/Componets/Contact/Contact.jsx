@@ -3,13 +3,13 @@ import styles from  './ContactStyles.module.css';
 function Contact() {
   return (
     <section id='contact' className={styles.container}>
-        <h1 className="sectionTitle">Contact</h1>
+        <h1 className="sectionTitle">Contacto</h1>
         <form action="">
             <div className='formGroup'>
                 <label htmlFor="name" hidden>
                     Name
                 </label>
-                <input type="text" name='name' id='name' placeholder='Name' required />
+                <input type="text" name='name' id='name' placeholder='Nombre' required />
             </div>
             <div className='formGroup'>
                 <label htmlFor="email" hidden>
@@ -21,9 +21,9 @@ function Contact() {
                 <label htmlFor="message" hidden>
                     Message
                 </label>
-                <textarea name='message' id='message' placeholder='Message' required ></textarea>
+                <textarea name='message' id='message' placeholder='Mensaje' required ></textarea>
             </div>
-            <input className="hover btn" type="submit" value="submit"/>
+            <input className="hover btn" type="submit" value="Enviar"/>
         </form>
     </section>
   )

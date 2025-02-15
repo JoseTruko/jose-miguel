@@ -1,7 +1,9 @@
 import styles from './HeroStyles.module.css';
-import heroimg from '../../assets/hero-img.png';
+import heroimg from '../../assets/perfil-img.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
+import whatsappLight from '../../assets/whatsapp-light.svg';
+import whatsappDark from '../../assets/whatsapp-dark.svg';
 import twitterLight from '../../assets/twitter-light.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -15,7 +17,7 @@ function Hero() {
     const { theme, toggleTheme } = useTheme();
 
     const themeIcon = theme === 'light' ? sun : moon;
-    const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+    const whatsappIcon = theme === 'light' ? whatsappLight : whatsappDark;
     const githubIcon = theme === 'light' ? githubLight : githubDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -29,16 +31,16 @@ function Hero() {
         </div>
 
         <div className={styles.info}>
-            <h1>Jose <br /> Miguel</h1>
-            <h2>IT Specialist</h2>
+            <h1>Jose <br /> Ramirez</h1>
+            <h2>Especialista en TI</h2>
             <span>
-                <a href="https://twitter.com/" target="_blank">
-                    <img src={twitterIcon} alt="Twitter icon" />
+                <a href="https://wa.link/533ud2/" target="_blank">
+                    <img src={whatsappIcon} alt="Twitter icon" />
                 </a>
-                <a href="https://github.com/" target="_blank">
+                <a href="https://github.com/JoseTruko/" target="_blank">
                     <img src={githubIcon} alt="Github icon" />
                 </a>
-                <a href="https://linkedin.com/" target="_blank">
+                <a href="http://www.linkedin.com/in/jose-miguel-ram%C3%ADrez-narv%C3%A1ez/" target="_blank">
                     <img src={linkedinIcon} alt="Linkedin icon" />
                 </a>
             </span>
@@ -49,7 +51,7 @@ function Hero() {
         </p>
         <a href={CV} download>
             <button className='hover'>
-                Resume
+                CV
             </button>
         </a>
         </div>
