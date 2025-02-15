@@ -44,11 +44,9 @@ function Hero() {
                     <img src={linkedinIcon} alt="Linkedin icon" />
                 </a>
             </span>
-
-        
-        <p className={styles.description}>
-            Desarrollador web entusiasta. Me encanta crear proyectos y aprender nuevas tecnologías.
-        </p>
+            <p className={styles.description}>
+                Desarrollador web entusiasta. Me encanta crear proyectos y aprender nuevas tecnologías.
+            </p>
         <a href={CV} download>
             <button className='hover'>
                 CV
