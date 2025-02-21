@@ -1,11 +1,6 @@
 import React from 'react'
 import styles from './ProjectsStyles.module.css'
 //Import for projects
-import Viberr from '../../assets/viberr.png'
-import freshBurger from '../../assets/fresh-burger.png'
-import hipssper from '../../assets/hipsster.png'
-import fitLift from '../../assets/fitlift.png'
-
 import cabañas from '../../assets/CabañasWeb.png';
 import ticosta from '../../assets/TicostaWeb.png';
 import lumina from '../../assets/LuminaApp.png';

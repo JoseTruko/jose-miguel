@@ -19,7 +19,7 @@ function Skills() {
                 <SkillList src={checkMarkIcon} skill="Ract" />
                 <SkillList src={checkMarkIcon} skill="Laravel" />
                 <SkillList src={checkMarkIcon} skill="Vue" />
-                <SkillList src={checkMarkIcon} skill="asp.net" />
+                <SkillList src={checkMarkIcon} skill=".net" />
                 <SkillList src={checkMarkIcon} skill="Bootstrap" />
                 <SkillList src={checkMarkIcon} skill="MySQL" />
                 <SkillList src={checkMarkIcon} skill="Oracle SQL" />
