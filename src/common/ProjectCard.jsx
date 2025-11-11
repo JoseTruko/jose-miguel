@@ -1,12 +1,12 @@
 import React from 'react'
 
-function ProjectCard({ img, link, titulo, descripcion }) {
+function ProjectCard({ src, link, h3, p }) {
     return (
         <a href={link} 
             target='_blank'>
-            <img className='hover' src={img} alt={`${titulo} logo`} />
-            <h3>{titulo}</h3>
-            <p>{descripcion}</p>
+            <img className='hover' src={src} alt={`${h3} logo`} />
+            <h3>{h3}</h3>
+            <p>{p}</p>
         </a>
     )
 }
