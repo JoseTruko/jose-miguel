@@ -19,21 +19,21 @@ function Projects() {
             <h1 className='sectionTitle'>Proyectos</h1>
             <div className={styles.projectsContainer}>
 
-                <ProjectCard src={cabañas} link="https://xn--cabaasdonramiro-1qb.com/"
-                h3="Cabañas Don Ramiro"
-                p="Web para hotel / wordpress"/>
+                <ProjectCard img={cabañas} link="https://xn--cabaasdonramiro-1qb.com/"
+                titulo="Cabañas Don Ramiro"
+                descripcion="Web para hotel / wordpress"/>
 
-                <ProjectCard src={ticosta} link="https://ticostatravels.com/"
-                h3="Ticosta Travels"
-                p="Web para turismo / wordpress"/>
+                <ProjectCard img={ticosta} link="https://ticostatravels.com/"
+                titulo="Ticosta Travels"
+                descripcion="Web para turismo / wordpress"/>
 
-                <ProjectCard src={lumina} link="https://github.com/JoseTruko/LuminaResort.git"
-                h3="Lumina Resort"
-                p="App hotelera / Laravel"/>
+                <ProjectCard img={lumina} link="https://github.com/JoseTruko/LuminaResort.git"
+                titulo="Lumina Resort"
+                descripcion="App hotelera / Laravel"/>
 
-                <ProjectCard src={alegria} link="https://github.com/JoseTruko/RecipeDepot.git"
-                h3="Alegría al cocinar"
-                p="Web de recetas / Vue.js"/>
+                <ProjectCard img={alegria} link="https://github.com/JoseTruko/RecipeDepot.git"
+                titulo="Alegría al cocinar"
+                descripcion="Web de recetas / Vue.js"/>
 
             </div>
             <hr />
